@@ -265,7 +265,7 @@ def process_pfp_and_workbook_structure_checker_tab_and_merge_for_first_run(pfp_d
 
 def run_streamlit_app():
     st.set_page_config(page_title="Work Force Planning", layout="centered")
-    st.title("Project Financial Plan (PFP) Data Processor")
+    st.title("Capacity Planning Tool")
     st.markdown("""
         <style>
         .stButton>button {
