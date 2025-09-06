@@ -131,7 +131,7 @@ def upload_dataframe_to_sharepoint_folder(site_url, folder_path, file_name, df, 
 
 
 def run_streamlit_app():
-    st.set_page_config(page_title="PFP Data Processor", layout="centered")
+    st.set_page_config(page_title="Work Force Planning", layout="centered")
     st.title("Project Financial Plan (PFP) Data Processor")
     st.markdown("""
         <style>
@@ -168,4 +168,5 @@ def run_streamlit_app():
                 st.error("No file fetched or DataFrame is empty.")
 
 if __name__ == "__main__":
+
     run_streamlit_app()
